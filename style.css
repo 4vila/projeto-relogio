@@ -1,0 +1,30 @@
+html, body{
+    margin:0;
+    padding:0;
+    background-color:rgb(150, 184, 201);
+}
+
+.tempo{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    transform: trasnlate(-50%, 50%);
+}
+
+.display{
+    font-family: 'Qahiri', sans-serif;
+    background-color:#4c968c;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 8rem;
+    border:10px solid rgb(138, 23, 52);
+
+}
+
